@@ -1,0 +1,26 @@
+/* João Victor de Jesus Augusto */
+/* Estilização geral do corpo da página */
+body {
+  /* Remove a margem padrão do navegador */
+  margin: 0;
+
+  /* Define uma lista de fontes preferenciais.
+     O navegador usa a primeira disponível no sistema do usuário */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+  /* Melhora a renderização da fonte no Chrome e Safari (suavização) */
+  -webkit-font-smoothing: antialiased;
+
+  /* Melhora a renderização da fonte no macOS Firefox */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Estilização específica para elementos <code> */
+code {
+  /* Define fontes monoespaçadas (usadas para código)
+     Cada caractere ocupa o mesmo espaço */
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

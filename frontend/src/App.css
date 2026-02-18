@@ -1,0 +1,73 @@
+/* João Victor de Jesus Augusto */
+/* Classe principal do componente App */
+.App {
+  /* Centraliza o texto dentro do container */
+  text-align: center;
+}
+
+/* Estilização da logo da aplicação */
+.App-logo {
+  /* Define a altura da logo baseada na altura da tela (viewport) */
+  height: 40vmin;
+
+  /* Desativa interação do mouse na imagem (cliques, hover, etc.) */
+  pointer-events: none;
+}
+
+/* Media query:
+   Aplica animação somente se o usuário NÃO tiver ativado
+   a preferência por reduzir animações no sistema operacional */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    /* Aplica a animação definida abaixo:
+       - infinite: repete para sempre
+       - 20s: duração de 20 segundos
+       - linear: velocidade constante */
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Estilização do cabeçalho principal da aplicação */
+.App-header {
+  /* Cor de fundo escura */
+  background-color: #282c34;
+
+  /* Altura mínima igual a 100% da altura da tela */
+  min-height: 100vh;
+
+  /* Ativa o Flexbox */
+  display: flex;
+
+  /* Organiza os elementos em coluna */
+  flex-direction: column;
+
+  /* Centraliza horizontalmente */
+  align-items: center;
+
+  /* Centraliza verticalmente */
+  justify-content: center;
+
+  /* Define tamanho da fonte responsivo */
+  font-size: calc(10px + 2vmin);
+
+  /* Cor do texto branca */
+  color: white;
+}
+
+/* Estilização de links */
+.App-link {
+  /* Define cor azul */
+  color: #046df7;
+}
+
+/* Define animação chamada App-logo-spin */
+@keyframes App-logo-spin {
+  from {
+    /* Começa sem rotação */
+    transform: rotate(0deg);
+  }
+  to {
+    /* Termina com rotação completa (360 graus) */
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,75 @@
+/* João Victor de Jesus Augusto */
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Fundo da aplicação */
+body {
+  background: linear-gradient(135deg, #1e90ff, #007bff);
+  min-height: 100vh;
+}
+
+/* Container central */
+.container {
+  max-width: 400px;
+  margin: 80px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos */
+h1, h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Botões */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #007bff;
+}
+
+/* Lista de tarefas */
+.task {
+  background: #f0f8ff;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+/* Tarefa concluída */
+.task.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Botões pequenos */
+.task button {
+  margin-top: 5px;
+}
